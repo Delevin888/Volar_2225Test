@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": ".env.extra/tsconfig.app.json" },
+    { "path": ".env.extra/tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "types": ["node"],
+    "paths": { "@/*": ["./src/*"] }
+  }
+}
